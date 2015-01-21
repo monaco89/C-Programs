@@ -1,0 +1,221 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D7438D11731A54300A15E89 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D7438D01731A54300A15E89 /* main.cpp */; };
+		5D7438D31731A54300A15E89 /* oop__the_movie_class.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D7438D21731A54300A15E89 /* oop__the_movie_class.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5D7438CB1731A54300A15E89 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5D7438D31731A54300A15E89 /* oop__the_movie_class.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5D7438CD1731A54300A15E89 /* oop: the movie class */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "oop: the movie class"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7438D01731A54300A15E89 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5D7438D21731A54300A15E89 /* oop__the_movie_class.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = oop__the_movie_class.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D7438CA1731A54300A15E89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D7438C41731A54300A15E89 = {
+			isa = PBXGroup;
+			children = (
+				5D7438CF1731A54300A15E89 /* oop: the movie class */,
+				5D7438CE1731A54300A15E89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D7438CE1731A54300A15E89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D7438CD1731A54300A15E89 /* oop: the movie class */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D7438CF1731A54300A15E89 /* oop: the movie class */ = {
+			isa = PBXGroup;
+			children = (
+				5D7438D01731A54300A15E89 /* main.cpp */,
+				5D7438D21731A54300A15E89 /* oop__the_movie_class.1 */,
+			);
+			path = "oop: the movie class";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D7438CC1731A54300A15E89 /* oop: the movie class */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D7438D61731A54300A15E89 /* Build configuration list for PBXNativeTarget "oop: the movie class" */;
+			buildPhases = (
+				5D7438C91731A54300A15E89 /* Sources */,
+				5D7438CA1731A54300A15E89 /* Frameworks */,
+				5D7438CB1731A54300A15E89 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "oop: the movie class";
+			productName = "oop: the movie class";
+			productReference = 5D7438CD1731A54300A15E89 /* oop: the movie class */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D7438C51731A54300A15E89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Nick Monaco";
+			};
+			buildConfigurationList = 5D7438C81731A54300A15E89 /* Build configuration list for PBXProject "oop: the movie class" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D7438C41731A54300A15E89;
+			productRefGroup = 5D7438CE1731A54300A15E89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D7438CC1731A54300A15E89 /* oop: the movie class */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D7438C91731A54300A15E89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D7438D11731A54300A15E89 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5D7438D41731A54300A15E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5D7438D51731A54300A15E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5D7438D71731A54300A15E89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5D7438D81731A54300A15E89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D7438C81731A54300A15E89 /* Build configuration list for PBXProject "oop: the movie class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7438D41731A54300A15E89 /* Debug */,
+				5D7438D51731A54300A15E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D7438D61731A54300A15E89 /* Build configuration list for PBXNativeTarget "oop: the movie class" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D7438D71731A54300A15E89 /* Debug */,
+				5D7438D81731A54300A15E89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D7438C51731A54300A15E89 /* Project object */;
+}
